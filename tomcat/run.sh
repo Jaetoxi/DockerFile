@@ -1,0 +1,1 @@
+sudo docker run -d -p 28080:8080 -p 29000:9000  -v /home/shenguanglin/docker_shell/tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml:ro -v /home/shenguanglin/docker_shell/tomcat/webapps/:/usr/local/tomcat/webapps --name xiaodi-tomcat xiaodi/tomcat
